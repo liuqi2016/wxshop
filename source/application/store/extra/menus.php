@@ -95,10 +95,10 @@ return [
                 'name' => '页面管理',
                 'active' => true,
                 'submenu' => [
-                    [
-                        'name' => '首页设计',
-                        'index' => 'wxapp.page/home'
-                    ],
+//                    [
+//                        'name' => '首页设计',
+//                        'index' => 'wxapp.page/home'
+//                    ],
                     [
                         'name' => '页面链接',
                         'index' => 'wxapp.page/links'
@@ -122,12 +122,12 @@ return [
 
         ],
     ],
-    'plugins' => [
-        'name' => '应用中心',
-        'icon' => 'icon-application',
-        'is_svg' => true,   // 多色图标
+//    'plugins' => [
+//        'name' => '应用中心',
+//        'icon' => 'icon-application',
+//        'is_svg' => true,   // 多色图标
 //        'index' => 'plugins/index',
-    ],
+//    ],
     'setting' => [
         'name' => '设置',
         'icon' => 'icon-setting',
